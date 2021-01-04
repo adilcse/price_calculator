@@ -1,8 +1,9 @@
 import { FontAwesome } from '@expo/vector-icons';
-import {  Input, Text } from 'galio-framework';
+import { Text } from 'galio-framework';
 import React, { useEffect, useState } from 'react';
 import {  StyleSheet, View } from 'react-native';
 import MyCard from '../components/MyCard';
+import MyInput from '../components/MyInput';
 const ItemDetails=({item})=>{
     const [finalPrice,setFinalPrice]=useState(item.cost);
     useEffect(()=>{
@@ -28,7 +29,7 @@ return (
      </View>
      <View style={styles.row}>
          <Text style={styles.h2}>Other Costs</Text>
-        <Input style={styles.input} color="black" fontSize={18} placeholder="use , to add" placeholderTextColor="grey" type="numeric" onChangeText={handleChange}/>
+        <MyInput style={styles.input} color="black" fontSize={18} placeholder="use , to add" placeholderTextColor="grey" type="numeric" onChangeText={handleChange}/>
      </View>
      <View style={styles.finalContainer}>
          <Text style={styles.h1}>Final Cost</Text>
@@ -62,7 +63,6 @@ const styles=StyleSheet.create({
 
 },
  input:{
-     height:35,
     alignItems:"flex-start",
  },
  finalContainer:{

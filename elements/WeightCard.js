@@ -71,7 +71,6 @@ const styles=StyleSheet.create({
         width:"40%"
     },
     input:{
-        height:35,
         width:100
     },
     icon:{

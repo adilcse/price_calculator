@@ -27,14 +27,13 @@ const styles=StyleSheet.create({
         padding:0
     },
     input:{
-        height:35,
         width:100,
         marginRight:10,
     },
     input1:{
-        height:35,
-        width:50,
-        marginRight:10
+        width:60,
+        marginRight:10,
+        padding:0
     },
     icon:{
         width:30,
