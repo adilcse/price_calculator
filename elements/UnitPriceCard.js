@@ -25,7 +25,8 @@ const styles=StyleSheet.create({
     },
     dataTextBold:{
         fontSize:18,
-        fontWeight:"bold"
+        fontWeight:"bold",
+        color:"black"
     },
     dataCard:{
         minHeight:100,

@@ -25,7 +25,8 @@ const styles=StyleSheet.create({
     output:{
         fontSize:20,
     fontWeight:'bold',
-    marginLeft:5
+    marginLeft:5,
+    color:"black"
     },
     price:{
         flexDirection:"row",

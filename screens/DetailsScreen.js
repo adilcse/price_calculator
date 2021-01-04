@@ -4,7 +4,6 @@ import ItemCard from "../elements/ItemCard";
 import ItemDetails from "../elements/ItemDetailsCard";
 import { ScrollView } from "react-native-gesture-handler";
 import { FontAwesome } from "@expo/vector-icons";
-import MyCard from "../components/MyCard";
 import UnitPriceCard from "../elements/UnitPriceCard";
 const initialItem=[
     {
@@ -121,13 +120,14 @@ const styles=StyleSheet.create({
     heading:{
         fontSize:18,
         textTransform:"uppercase",
-        opacity:0.8,
         justifyContent:"center",
         textAlign:"center",
+        
     },
     h1:{
         fontSize:20,
-        fontWeight:"bold"
+        fontWeight:"bold",
+        color:"black"
     },
     mainContaier:{
         flexDirection:"row",

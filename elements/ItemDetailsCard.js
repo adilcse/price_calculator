@@ -25,7 +25,7 @@ return (
      <View style={styles.row}>
          <Text style={styles.h2}>Cost of cloth</Text>
          <FontAwesome name="rupee" size={15} color="black" style={styles.icon} />
-<Text style={{fontSize:18,fontWeight:"bold"}}>{item.cost}</Text>
+<Text style={{fontSize:18,fontWeight:"bold",color:"black"}}>{item.cost}</Text>
      </View>
      <View style={styles.row}>
          <Text style={styles.h2}>Other Costs</Text>
@@ -60,6 +60,7 @@ const styles=StyleSheet.create({
  h1:{
     fontSize:22,
     width:"50%",
+    color:"black"
 
 },
  input:{

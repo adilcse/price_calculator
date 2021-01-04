@@ -25,7 +25,8 @@ const styles=StyleSheet.create({
         fontSize:18,
         marginVertical:5,
         textTransform:"uppercase",
-        opacity:0.8
+        opacity:0.8,
+        color:"black"
     }
 })
 export default HomeScreen;
