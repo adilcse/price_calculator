@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.adil.calculatorCalculatrcalculator",
+    package = "com.adil.calculator",
 )
 
 android_resource(
     name = "res",
-    package = "com.adil.calculatorCalculatrcalculator",
+    package = "com.adil.calculator",
     res = "src/main/res",
 )
 

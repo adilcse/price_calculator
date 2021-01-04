@@ -1,4 +1,4 @@
-package com.adil.calculatorCalculatrcalculator;
+package com.adil.calculator;
 
 import android.os.Bundle;
 
