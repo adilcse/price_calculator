@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "_internal": {
+      "isDebug": false,
+      "projectRoot": "C:\\Users\\adilh\\projects\\price_calculator",
+      "dynamicConfigPath": null,
+      "staticConfigPath": null,
+      "packageJsonPath": "C:\\Users\\adilh\\projects\\price_calculator\\package.json"
+    },
+    "name": "price_calculator",
+    "slug": "price_calculator",
+    "version": "1.0.0",
+    "sdkVersion": "40.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.adil.calculatorCalculatrcalculator"
+    }
+  }
+}
