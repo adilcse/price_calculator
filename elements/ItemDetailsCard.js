@@ -34,7 +34,7 @@ return (
      <View style={styles.finalContainer}>
          <Text style={styles.h1}>Final Cost</Text>
          <FontAwesome name="rupee" size={20} color="black" style={styles.icon} />
-<Text style={{fontSize:24,fontWeight:"bold"}}> {Math.round(finalPrice)}</Text>
+<Text style={{fontSize:24,fontWeight:"bold",color:"black"}}> {Math.round(finalPrice)}</Text>
      </View>
 </MyCard>
 )
