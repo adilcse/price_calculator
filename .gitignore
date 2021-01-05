@@ -130,3 +130,6 @@ buck-out/
 web-build/
 
 # @end expo-cli
+
+#large un necessary files
+android/*.hprof
